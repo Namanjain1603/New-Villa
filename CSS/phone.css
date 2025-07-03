@@ -1,0 +1,214 @@
+@media (max-width: 426px) {
+  .header {
+    padding: 1vw;
+  }
+
+  .hamburger {
+    display: initial;
+    background-color: transparent;
+    border: none;
+  }
+  .menu {
+    display: none;
+  }
+  .intro {
+    font-size: 2vw;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+  }
+  .input input {
+    margin: 1vw;
+    width: 100%;
+  }
+  .search_now {
+    margin: 2vw;
+    font-size: 2.5vw;
+  }
+  .advance {
+    font-size: 2vw;
+  }
+  .exmp {
+    display: block;
+    max-width: 100%;
+    position: relative;
+  }
+  .exmp {
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 100%;
+  }
+  .data {
+    width: 100%;
+  }
+  .data h3 {
+    text-align: center;
+  }
+  .data h1 {
+    text-align: center;
+  }
+  .data p {
+    text-align: justify;
+    margin: 0 7vw;
+  }
+  .icon {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon div {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .icon img {
+    width: 15vw;
+    height: 15vw;
+  }
+  .exp {
+    display: flex;
+    flex-direction: column;
+  }
+  .exp13 {
+    height: 30vw;
+    width: 40vw;
+    justify-items: center;
+    align-content: center;
+    margin: 7vw;
+  }
+  .ul {
+    margin: 7vw 0;
+  }
+  .about {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+  }
+  .playcircle {
+    width: 15vw;
+    height: 15vw;
+  }
+  .Bgimage {
+    width: 100%;
+    margin: 10vw 0;
+  }
+  .rating {
+    width: 20vw;
+    height: 20vw;
+  }
+  .about-thumb2 {
+    position: absolute;
+    bottom: 0;
+  }
+  .rating {
+    text-align: center;
+  }
+  .latest {
+    padding: 2vw;
+    justify-items: center;
+  }
+  .latest_one {
+    font-size: 3vw;
+  }
+  .threeproperties {
+    display: flex;
+    flex-direction: column;
+    padding: 0%;
+  }
+  .Properties {
+    width: 96%;
+    margin: 2vw 0;
+    padding: 1.5vw;
+    height: auto;
+  }
+  .detail {
+    display: none;
+  }
+  .button div {
+    width: 7vw;
+    height: 7vw;
+  }
+  .buy_by_location {
+    max-width: 100%;
+    padding: 8vw;
+    font-size: 3vw;
+  }
+  .places {
+    display: block;
+    justify-items: center;
+  }
+  .location_img {
+    display: none;
+  }
+  .locations {
+    width: 100%;
+  }
+  .location_link {
+    width: 80vw;
+    margin: 4vw 0;
+  }
+  .location {
+    padding: 4vw;
+  }
+  .location_link i {
+    font-size: 4vw;
+  }
+  .more_location {
+    width: 25vw;
+    padding: 3vw;
+  }
+  .type_detail {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .type_detail div {
+    width: 100%;
+    margin: 2vw;
+  }
+  .type_detail p {
+    text-align: justify;
+    margin: 2vw;
+  }
+  .grp_homes {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 5vw 3vw;
+    gap: 5vw;
+  }
+  .homes {
+    width: 100%;
+  }
+  .logo {
+    padding: 3vw;
+  }
+  .logo i {
+    font-size: 20vw;
+  }
+  .no {
+    width: 5vw;
+    height: 5vw;
+  }
+  .type-link {
+    font-size: 3vw;
+  }
+  .no_of_properties {
+    font-size: 3vw;
+  }
+}
+/* popular cities */
+.grp-popular-cities{
+  display: block;
+  justify-self: center;
+  justify-content: center;
+}
+.most_popular_cities{
+  width: 100%;
+  margin: 3vw 0;
+}
+.most_popular_cities_detail{
+  font-size: 7vw;
+}

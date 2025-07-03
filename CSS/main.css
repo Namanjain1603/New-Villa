@@ -1,0 +1,508 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.red {
+  color: red;
+}
+.header {
+  background-color: white;
+  max-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1vw;
+}
+.hamburger {
+  display: none;
+}
+.hamburger:hover {
+  color: red;
+}
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+}
+.dropdown_button {
+  background-color: transparent;
+  color: black;
+  border: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+}
+.dropdown-content a {
+  color: black;
+  padding: 7px;
+  text-decoration: none;
+  display: block;
+  font-size: 1.2vw;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropdown_button {
+  color: red;
+}
+.dropdown_button:hover {
+  color: red;
+}
+.menu a:hover {
+  color: red;
+  border: solid red 1px;
+}
+.login_button {
+  background-color: red;
+  border: solid red;
+  border-radius: 5px;
+  padding: 0.7vw 1vw;
+  color: white;
+}
+.login_button:hover {
+  background-color: black;
+  border: black;
+}
+.intro {
+  padding: 10vw 0vw;
+  text-align: center;
+  background-image: url(/IMAGES/hero-section-bg.png);
+  background-size: cover;
+  color: white;
+  max-width: 100%;
+}
+.intro p {
+  margin: 1vw;
+}
+.intro h1 {
+  margin: 1vw;
+}
+.input {
+  width: 50%;
+  background-color: white;
+  border: solid white;
+  border-radius: 10px;
+  padding: 1vw;
+  justify-self: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2vw;
+}
+.input input {
+  text-align: center;
+  width: 24%;
+  background-color: transparent;
+  border: none;
+}
+.search_now {
+  background-color: red;
+  border: solid red;
+  border-radius: 10px;
+  color: white;
+  padding: 0.7vw;
+}
+.advance {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+.exmp {
+  max-width: 100%;
+  padding: 10vw 2vw;
+  display: flex;
+  justify-content: space-between;
+}
+.Bgimage {
+  width: 48%;
+  position: relative;
+}
+.about-thumb1 {
+  width: 85%;
+  height: auto;
+}
+.about-thumb2 {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 55%;
+}
+.rating {
+  width: 9vw;
+  height: 9vw;
+  text-align: center;
+  align-content: center;
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.rating p {
+  margin: 1vw;
+}
+.data {
+  padding-top: 5vw;
+  width: 48%;
+}
+.data h1 {
+  margin: 2vw 0;
+}
+.icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: center;
+  margin: 2vw 0;
+}
+.icon div {
+  align-items: center;
+  text-align: center;
+}
+.icon img {
+  width: 6vw;
+  height: 6vw;
+}
+.exp {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2vw 0;
+}
+.exp13 {
+  text-align: center;
+  border: dotted 1px grey;
+  border-radius: 10px;
+  align-content: center;
+  width: 10vw;
+  height: 9vw;
+}
+.exp13 h1 {
+  margin: 0%;
+}
+.exmp_last_button {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2vw 0;
+}
+.about {
+  width: 8vw;
+  padding: 1vw;
+  background-color: red;
+  border: solid red;
+  border-radius: 10px;
+  text-align: center;
+}
+.about a {
+  text-decoration: none;
+  color: white;
+}
+.playcircle {
+  background-color: #f1f1f1;
+  width: 4vw;
+  height: 4vw;
+  justify-items: center;
+  align-content: center;
+  border: solid #f1f1f1;
+  border-radius: 50%;
+}
+.latest {
+  padding: 8vw 4vw;
+  background-image: url(/IMAGES/bg-full-1.png);
+  background-size: cover;
+}
+.latest_one {
+  justify-self: center;
+  text-align: center;
+}
+.threeproperties {
+  display: flex;
+  justify-content: space-between;
+}
+.Properties {
+  width: 30%;
+  background-color: white;
+  border: solid white;
+  border-radius: 10px;
+  padding: 1vw;
+}
+.property_img {
+  width: 100%;
+  align-self: center;
+  margin-bottom: 1vw;
+}
+.luxury {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1vw;
+}
+.luxury a {
+  text-decoration: none;
+  color: black;
+}
+.luxury a:hover {
+  color: red;
+}
+.detail {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1vw;
+}
+.detail div {
+  width: 6vw;
+  background-color: #f1f1f1;
+  height: 4vw;
+  justify-items: center;
+  align-content: center;
+}
+.owner_detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.owner_name_img {
+  display: flex;
+  align-items: center;
+}
+.owner_name_img img {
+  margin: 1vw;
+}
+.button {
+  display: flex;
+}
+.button div {
+  width: 2.5vw;
+  height: 2.5vw;
+  background-color: #f1f1f1;
+  align-content: center;
+  text-align: center;
+  margin: 0.5vw;
+}
+.share:hover,
+.plus:hover {
+  background-color: red;
+  color: white;
+}
+.buy_by_location {
+  background-image: url(/IMAGES/bg-full-2.png);
+  padding: 10vw 2vw;
+  background-size: cover;
+  max-width: 100%;
+}
+.buy_by_location h1 {
+  color: white;
+  text-align: center;
+  margin: 1vw 0;
+}
+.buy_by_location h3 {
+  color: white;
+  text-align: center;
+  margin: 1vw 0;
+}
+.places {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vw 0;
+}
+.location {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  border: solid #efe1fb 1px;
+  border-radius: 10px;
+  max-width: 100%;
+  padding: 1.5vw;
+  color: white;
+}
+.location_link a {
+  text-decoration: none;
+}
+.location_link i {
+  color: red;
+  font-size: 1vw;
+}
+.location_link {
+  width: 25vw;
+  margin: 2vw;
+}
+.more_location {
+  padding: 1vw;
+  background-color: red;
+  border-style: solid red;
+  border-radius: 5px;
+  width: 10%;
+  text-align: center;
+  justify-self: center;
+}
+.more_location a {
+  text-decoration: none;
+  color: white;
+}
+.more_location:hover {
+  background-color: black;
+  border: red;
+}
+.buy_by_types {
+  padding: 5vw 2vw;
+  background-image: url(/IMAGES/bg-full-3.png);
+  background-size: cover;
+}
+.type_detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.type_detail div {
+  width: 50%;
+}
+.grp_homes {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vw 0;
+}
+.homes {
+  width: 23%;
+  text-align: center;
+  position: relative;
+}
+.type-link {
+  text-decoration: none;
+  color: black;
+}
+.logo {
+  font-size: 10vw;
+  color: red;
+  background-color: white;
+  padding: 1.5vw;
+  margin-bottom: 2vw;
+}
+.no {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 3vw;
+  height: 3vw;
+  background-color: #f1f1f1;
+  border: solid #f1f1f1;
+  border-radius: 50%;
+  align-items: center;
+  align-content: center;
+}
+.homes:hover .no {
+  background-color: red;
+  border-color: red;
+  color: white;
+}
+.no_of_properties {
+  margin: 20px;
+  color: red;
+}
+.type-link:hover {
+  color: red;
+}
+.popular_cities {
+  padding: 10vw 2vw;
+  max-width: 100%;
+  text-align: center;
+  background-image: url(/IMAGES/bg-full-4.png);
+  background-size: cover;
+  color: white;
+}
+.most_popular_cities_heading {
+  margin: 30px;
+}
+.grp-popular-cities {
+  display: flex;
+  justify-content: space-between;
+}
+.most_popular_cities {
+  width: 19%;
+  position: relative;
+}
+.most_popular_cities img {
+  width: 100%;
+}
+.most_popular_cities_detail {
+  position: absolute;
+  bottom: 4vw;
+  left: 4vw;
+  right: 4vw;
+}
+.most_popular_cities_detail p,
+.most_popular_cities_detail h2 {
+  margin: 10px;
+  color: white;
+}
+.delivery_text {
+  margin: 50px;
+}
+.delivery {
+  text-decoration: none;
+  color: red;
+}
+.delivery:hover {
+  text-decoration: underline;
+}
+.experience {
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+  width: 80%;
+  background-color: white;
+  padding: 3vw;
+  color: red;
+  border: solid white;
+  border-radius: 10px;
+}
+.experience p {
+  color: black;
+  margin-top: 1.5vw;
+}
+.contactbox {
+  display: flex;
+  justify-self: center;
+  background-color: #0b2c3d;
+  border: solid white 5px;
+  border-radius: 10px;
+  margin: 5vw;
+  padding: 2.5vw;
+  width: 75%;
+  justify-content: space-between;
+}
+.quote {
+  padding: 1.5vw;
+  background-color: red;
+  border-style: solid red;
+  border-radius: 10px;
+}
+.quote:hover {
+  background-color: black;
+  border-color: black;
+}
+.phone_logo {
+  font-size: 2.3vw;
+  color: red;
+  margin-right: 1vw;
+}
+.phone_no:hover {
+  color: red;
+}
+.phone_with_logo {
+  display: flex;
+  align-items: center;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
+}
+.contact a {
+  text-decoration: none;
+  color: white;
+}
